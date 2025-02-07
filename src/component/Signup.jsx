@@ -8,8 +8,8 @@ const DigitalIdentitySystem_ABI = DigitalABI;
 const DigitalIdentitySystem_ADDRESS =
   "0x263331607cd71f565f9A2701dC4AAC7A09B8A9AA"; // DigitalIdentitySystem Contract Address
 
-const issuerPrivateKey =
-  "0x7d6da14dfe536d2f79331a626af5a1a086561bd82a158aa3bcc169fa75bdd659";
+const issuerPrivateKey = PRIVATE_KEY
+ 
 
 const Signup = () => {
   const [name, setName] = useState("");
