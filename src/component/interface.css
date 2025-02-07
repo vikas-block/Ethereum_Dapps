@@ -1,0 +1,16 @@
+.interface-div{
+    /* background-color: black; */
+    width: 50%;
+    position:absolute;
+    /* height: 100vh; */
+    top: 30%;
+    left: 25%;
+    text-align: center;
+
+}
+.interface-div button{
+    
+    width: 30%;
+    margin-right: 10px;
+    /* gap:200px; */
+}

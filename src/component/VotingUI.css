@@ -1,0 +1,57 @@
+ /* body{  
+  background-image: url(../pictures/app.jpeg);
+ } */
+
+.voting-ui {
+    text-align: center;
+    padding: 20px;
+    position:absolute;
+    left: 30%;
+    top: 20%;
+    background-color: white;
+    border: 2px solid black;
+  border-radius: 5px;
+  }
+  
+  .party-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .party-card {
+    border: 3px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .party-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .party-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .party-link:hover {
+    text-decoration: underline;
+  }
+  .wallet-address p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    text-align: end;
+
+
+  }
